@@ -1,0 +1,56 @@
+{
+  "competencia": "202506",
+  "uf": "DF",
+  "dados": "reais_não_conciliados",
+  "criado_utc": "2026-11-11T00:06:01.250848+00:00",
+  "arquivos": {
+    "RD": {
+      "arquivo": "raw/RDDF2506.dbc",
+      "url_oficial_prevista": "ftp://ftp.datasus.gov.br/dissemin/publicos/SIHSUS/200801_/Dados/RDDF2506.dbc",
+      "origem": "cópia local; origem anterior não autenticada pelo programa",
+      "bytes": 1703052,
+      "sha256": "434bd87904739e470fc9a82e1ef3a7ceeac8dd26b2c89e4c5f21fc3cfa0954a3",
+      "obtido_utc": "2026-11-11T00:06:01.270271+00:00",
+      "hash_coincide_inventario_anterior": true
+    },
+    "ST": {
+      "arquivo": "raw/STDF2506.dbc",
+      "url_oficial_prevista": "ftp://ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/ST/STDF2506.dbc",
+      "origem": "cópia local; origem anterior não autenticada pelo programa",
+      "bytes": 346976,
+      "sha256": "e9d3ad35db1c7707e65e98af8af1675b0275764814faaf6aedb7d0c53679fd05",
+      "obtido_utc": "2026-11-11T00:06:01.272441+00:00",
+      "hash_coincide_inventario_anterior": true
+    },
+    "LT": {
+      "arquivo": "raw/LTDF2506.dbc",
+      "url_oficial_prevista": "ftp://ftp.datasus.gov.br/dissemin/publicos/CNES/200508_/Dados/LT/LTDF2506.dbc",
+      "origem": "cópia local; origem anterior não autenticada pelo programa",
+      "bytes": 8232,
+      "sha256": "fafb5703eab236ca39d5fa3e650d78ba31901f6fc1d8739de46a2236cd863a6f",
+      "obtido_utc": "2026-11-11T00:06:01.273013+00:00",
+      "hash_coincide_inventario_anterior": true
+    }
+  },
+  "ambiente_ingestao": {
+    "python": "3.12.14",
+    "plataforma": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "pacotes": {
+      "pandas": "2.2.3",
+      "pyarrow": "26.0.1",
+      "pyreaddbc": "2.0.4",
+      "dbfread": "2.0.7",
+      "streamlit": "1.67.0",
+      "plotly": "7.1.0",
+      "pytest": "9.2.0"
+    },
+    "commit": "sem commit disponível",
+    "codigo_sha256": {
+      "tccbi/__init__.py": "3d778683f8534721c936b99ee75526cc00412dfa659974d7c09b1061e4470f15",
+      "tccbi/core.py": "1cfb3f11dc49eaa5294e74ebe9631383aedeca63238a293c1863a8766d3d80b2",
+      "tccbi/pipeline.py": "575c734a00a059a21b27ce7c9dac7bd5a4dbb50475e58e70184a6528fff4516e",
+      "tccbi/report.py": "1bda3e5cd2895d12b56dd88f6dbc4ccc1f9f4db8652b9b37960b8d1e57836a7a",
+      "app.py": "ba6342bc7ae6df32975d6098043ecb8418a52ab0bfaecd8833ec5313d8763a2a"
+    }
+  }
+}

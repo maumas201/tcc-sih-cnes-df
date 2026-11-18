@@ -1,0 +1,2847 @@
+{
+  "RD": {
+    "registros": 21120,
+    "campos": 114,
+    "registros_marcados_excluidos": 0,
+    "duplicatas_integrais": 0,
+    "campos_requeridos_ausentes": [],
+    "parquet_sha256": "37df4e87cb87762f5951ddb1f6b282f5eefe27dd09e7a7e32d4a6a356e6ee76e",
+    "layout": [
+      {
+        "campo": "UF_ZI",
+        "tipo_dbf": "C",
+        "tamanho": 6,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "ANO_CMPT",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "MES_CMPT",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "ESPEC",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 10
+      },
+      {
+        "campo": "CGC_HOSP",
+        "tipo_dbf": "C",
+        "tamanho": 14,
+        "decimais": 0,
+        "ausentes": 750,
+        "distintos": 31
+      },
+      {
+        "campo": "N_AIH",
+        "tipo_dbf": "C",
+        "tamanho": 13,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 21116
+      },
+      {
+        "campo": "IDENT",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "CEP",
+        "tipo_dbf": "C",
+        "tamanho": 8,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 7945
+      },
+      {
+        "campo": "MUNIC_RES",
+        "tipo_dbf": "C",
+        "tamanho": 6,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 297
+      },
+      {
+        "campo": "NASC",
+        "tipo_dbf": "C",
+        "tamanho": 8,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 11834
+      },
+      {
+        "campo": "SEXO",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "UTI_MES_IN",
+        "tipo_dbf": "N",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "UTI_MES_AN",
+        "tipo_dbf": "N",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "UTI_MES_AL",
+        "tipo_dbf": "N",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "UTI_MES_TO",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 61
+      },
+      {
+        "campo": "MARCA_UTI",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 10
+      },
+      {
+        "campo": "UTI_INT_IN",
+        "tipo_dbf": "N",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "UTI_INT_AN",
+        "tipo_dbf": "N",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "UTI_INT_AL",
+        "tipo_dbf": "N",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "UTI_INT_TO",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 23
+      },
+      {
+        "campo": "DIAR_ACOM",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 71
+      },
+      {
+        "campo": "QT_DIARIAS",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 85
+      },
+      {
+        "campo": "PROC_SOLIC",
+        "tipo_dbf": "C",
+        "tamanho": 10,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 800
+      },
+      {
+        "campo": "PROC_REA",
+        "tipo_dbf": "C",
+        "tamanho": 10,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 801
+      },
+      {
+        "campo": "VAL_SH",
+        "tipo_dbf": "N",
+        "tamanho": 13,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 11733
+      },
+      {
+        "campo": "VAL_SP",
+        "tipo_dbf": "N",
+        "tamanho": 13,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 4737
+      },
+      {
+        "campo": "VAL_SADT",
+        "tipo_dbf": "N",
+        "tamanho": 13,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "VAL_RN",
+        "tipo_dbf": "N",
+        "tamanho": 13,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "VAL_ACOMP",
+        "tipo_dbf": "N",
+        "tamanho": 13,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "VAL_ORTP",
+        "tipo_dbf": "N",
+        "tamanho": 13,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "VAL_SANGUE",
+        "tipo_dbf": "N",
+        "tamanho": 13,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "VAL_SADTSR",
+        "tipo_dbf": "N",
+        "tamanho": 11,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "VAL_TRANSP",
+        "tipo_dbf": "N",
+        "tamanho": 13,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "VAL_OBSANG",
+        "tipo_dbf": "N",
+        "tamanho": 11,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "VAL_PED1AC",
+        "tipo_dbf": "N",
+        "tamanho": 11,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "VAL_TOT",
+        "tipo_dbf": "N",
+        "tamanho": 14,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 11953
+      },
+      {
+        "campo": "VAL_UTI",
+        "tipo_dbf": "N",
+        "tamanho": 8,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 147
+      },
+      {
+        "campo": "US_TOT",
+        "tipo_dbf": "N",
+        "tamanho": 10,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 10686
+      },
+      {
+        "campo": "DT_INTER",
+        "tipo_dbf": "C",
+        "tamanho": 8,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 155
+      },
+      {
+        "campo": "DT_SAIDA",
+        "tipo_dbf": "C",
+        "tamanho": 8,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 122
+      },
+      {
+        "campo": "DIAG_PRINC",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2489
+      },
+      {
+        "campo": "DIAG_SECUN",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "COBRANCA",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 24
+      },
+      {
+        "campo": "NATUREZA",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "NAT_JUR",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 7
+      },
+      {
+        "campo": "GESTAO",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "RUBRICA",
+        "tipo_dbf": "N",
+        "tamanho": 5,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "IND_VDRL",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "MUNIC_MOV",
+        "tipo_dbf": "C",
+        "tamanho": 6,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "COD_IDADE",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 4
+      },
+      {
+        "campo": "IDADE",
+        "tipo_dbf": "N",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 100
+      },
+      {
+        "campo": "DIAS_PERM",
+        "tipo_dbf": "N",
+        "tamanho": 5,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 85
+      },
+      {
+        "campo": "MORTE",
+        "tipo_dbf": "N",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "NACIONAL",
+        "tipo_dbf": "C",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 25
+      },
+      {
+        "campo": "NUM_PROC",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 21120,
+        "distintos": 0
+      },
+      {
+        "campo": "CAR_INT",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 4
+      },
+      {
+        "campo": "TOT_PT_SP",
+        "tipo_dbf": "N",
+        "tamanho": 6,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "CPF_AUT",
+        "tipo_dbf": "C",
+        "tamanho": 11,
+        "decimais": 0,
+        "ausentes": 21120,
+        "distintos": 0
+      },
+      {
+        "campo": "HOMONIMO",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "NUM_FILHOS",
+        "tipo_dbf": "N",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 8
+      },
+      {
+        "campo": "INSTRU",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 5
+      },
+      {
+        "campo": "CID_NOTIF",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 20778,
+        "distintos": 2
+      },
+      {
+        "campo": "CONTRACEP1",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 10
+      },
+      {
+        "campo": "CONTRACEP2",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 9
+      },
+      {
+        "campo": "GESTRISCO",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "INSC_PN",
+        "tipo_dbf": "C",
+        "tamanho": 12,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "SEQ_AIH5",
+        "tipo_dbf": "C",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "CBOR",
+        "tipo_dbf": "C",
+        "tamanho": 6,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "CNAER",
+        "tipo_dbf": "C",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "VINCPREV",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "GESTOR_COD",
+        "tipo_dbf": "C",
+        "tamanho": 5,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 18
+      },
+      {
+        "campo": "GESTOR_TP",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "GESTOR_CPF",
+        "tipo_dbf": "C",
+        "tamanho": 15,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 17
+      },
+      {
+        "campo": "GESTOR_DT",
+        "tipo_dbf": "C",
+        "tamanho": 8,
+        "decimais": 0,
+        "ausentes": 21120,
+        "distintos": 0
+      },
+      {
+        "campo": "CNES",
+        "tipo_dbf": "C",
+        "tamanho": 7,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 32
+      },
+      {
+        "campo": "CNPJ_MANT",
+        "tipo_dbf": "C",
+        "tamanho": 14,
+        "decimais": 0,
+        "ausentes": 7299,
+        "distintos": 2
+      },
+      {
+        "campo": "INFEHOSP",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 21120,
+        "distintos": 0
+      },
+      {
+        "campo": "CID_ASSO",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "CID_MORTE",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "COMPLEX",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "FINANC",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "FAEC_TP",
+        "tipo_dbf": "C",
+        "tamanho": 6,
+        "decimais": 0,
+        "ausentes": 19960,
+        "distintos": 10
+      },
+      {
+        "campo": "REGCT",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "RACA_COR",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 5
+      },
+      {
+        "campo": "ETNIA",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 9
+      },
+      {
+        "campo": "SEQUENCIA",
+        "tipo_dbf": "N",
+        "tamanho": 9,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 21120
+      },
+      {
+        "campo": "REMESSA",
+        "tipo_dbf": "C",
+        "tamanho": 21,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AUD_JUST",
+        "tipo_dbf": "C",
+        "tamanho": 50,
+        "decimais": 0,
+        "ausentes": 20511,
+        "distintos": 3
+      },
+      {
+        "campo": "SIS_JUST",
+        "tipo_dbf": "C",
+        "tamanho": 50,
+        "decimais": 0,
+        "ausentes": 20523,
+        "distintos": 22
+      },
+      {
+        "campo": "VAL_SH_FED",
+        "tipo_dbf": "N",
+        "tamanho": 10,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 33
+      },
+      {
+        "campo": "VAL_SP_FED",
+        "tipo_dbf": "N",
+        "tamanho": 10,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 38
+      },
+      {
+        "campo": "VAL_SH_GES",
+        "tipo_dbf": "N",
+        "tamanho": 10,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "VAL_SP_GES",
+        "tipo_dbf": "N",
+        "tamanho": 10,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "VAL_UCI",
+        "tipo_dbf": "N",
+        "tamanho": 10,
+        "decimais": 2,
+        "ausentes": 0,
+        "distintos": 40
+      },
+      {
+        "campo": "MARCA_UCI",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "DIAGSEC1",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 18123,
+        "distintos": 611
+      },
+      {
+        "campo": "DIAGSEC2",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 20904,
+        "distintos": 139
+      },
+      {
+        "campo": "DIAGSEC3",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 21077,
+        "distintos": 37
+      },
+      {
+        "campo": "DIAGSEC4",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 21106,
+        "distintos": 11
+      },
+      {
+        "campo": "DIAGSEC5",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 21114,
+        "distintos": 4
+      },
+      {
+        "campo": "DIAGSEC6",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 21118,
+        "distintos": 2
+      },
+      {
+        "campo": "DIAGSEC7",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 21120,
+        "distintos": 0
+      },
+      {
+        "campo": "DIAGSEC8",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 21120,
+        "distintos": 0
+      },
+      {
+        "campo": "DIAGSEC9",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 21120,
+        "distintos": 0
+      },
+      {
+        "campo": "TPDISEC1",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "TPDISEC2",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "TPDISEC3",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "TPDISEC4",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "TPDISEC5",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "TPDISEC6",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "TPDISEC7",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "TPDISEC8",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "TPDISEC9",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "FONTE_ORC",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      }
+    ],
+    "relato_anterior_nao_verificado": [
+      21120,
+      114
+    ],
+    "coincide_com_relato": true
+  },
+  "ST": {
+    "registros": 6189,
+    "campos": 208,
+    "registros_marcados_excluidos": 0,
+    "duplicatas_integrais": 0,
+    "campos_requeridos_ausentes": [],
+    "parquet_sha256": "232abd526a071c5fbc1a7dfe5f5111912b96bc322c0842a466157abf8e3ed0ad",
+    "layout": [
+      {
+        "campo": "CNES",
+        "tipo_dbf": "C",
+        "tamanho": 7,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 6189
+      },
+      {
+        "campo": "CODUFMUN",
+        "tipo_dbf": "C",
+        "tamanho": 6,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "COD_CEP",
+        "tipo_dbf": "C",
+        "tamanho": 8,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1825
+      },
+      {
+        "campo": "CPF_CNPJ",
+        "tipo_dbf": "C",
+        "tamanho": 14,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 5802
+      },
+      {
+        "campo": "PF_PJ",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "NIV_DEP",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "CNPJ_MAN",
+        "tipo_dbf": "C",
+        "tamanho": 14,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 10
+      },
+      {
+        "campo": "COD_IR",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 6189,
+        "distintos": 0
+      },
+      {
+        "campo": "REGSAUDE",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 5900,
+        "distintos": 44
+      },
+      {
+        "campo": "MICR_REG",
+        "tipo_dbf": "C",
+        "tamanho": 6,
+        "decimais": 0,
+        "ausentes": 6189,
+        "distintos": 0
+      },
+      {
+        "campo": "DISTRSAN",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 2657,
+        "distintos": 31
+      },
+      {
+        "campo": "DISTRADM",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 6189,
+        "distintos": 0
+      },
+      {
+        "campo": "VINC_SUS",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "TPGESTAO",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "ESFERA_A",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 6189,
+        "distintos": 0
+      },
+      {
+        "campo": "RETENCAO",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 6189,
+        "distintos": 0
+      },
+      {
+        "campo": "ATIVIDAD",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 5
+      },
+      {
+        "campo": "NATUREZA",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 6189,
+        "distintos": 0
+      },
+      {
+        "campo": "CLIENTEL",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 68,
+        "distintos": 3
+      },
+      {
+        "campo": "TP_UNID",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 31
+      },
+      {
+        "campo": "TURNO_AT",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 7
+      },
+      {
+        "campo": "NIV_HIER",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 6189,
+        "distintos": 0
+      },
+      {
+        "campo": "TP_PREST",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "CO_BANCO",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 6023,
+        "distintos": 14
+      },
+      {
+        "campo": "CO_AGENC",
+        "tipo_dbf": "C",
+        "tamanho": 5,
+        "decimais": 0,
+        "ausentes": 6023,
+        "distintos": 73
+      },
+      {
+        "campo": "C_CORREN",
+        "tipo_dbf": "C",
+        "tamanho": 14,
+        "decimais": 0,
+        "ausentes": 6023,
+        "distintos": 147
+      },
+      {
+        "campo": "CONTRATM",
+        "tipo_dbf": "C",
+        "tamanho": 11,
+        "decimais": 0,
+        "ausentes": 6189,
+        "distintos": 0
+      },
+      {
+        "campo": "DT_PUBLM",
+        "tipo_dbf": "C",
+        "tamanho": 8,
+        "decimais": 0,
+        "ausentes": 6189,
+        "distintos": 0
+      },
+      {
+        "campo": "CONTRATE",
+        "tipo_dbf": "C",
+        "tamanho": 11,
+        "decimais": 0,
+        "ausentes": 6189,
+        "distintos": 0
+      },
+      {
+        "campo": "DT_PUBLE",
+        "tipo_dbf": "C",
+        "tamanho": 8,
+        "decimais": 0,
+        "ausentes": 6189,
+        "distintos": 0
+      },
+      {
+        "campo": "ALVARA",
+        "tipo_dbf": "C",
+        "tamanho": 25,
+        "decimais": 0,
+        "ausentes": 892,
+        "distintos": 4016
+      },
+      {
+        "campo": "DT_EXPED",
+        "tipo_dbf": "C",
+        "tamanho": 8,
+        "decimais": 0,
+        "ausentes": 743,
+        "distintos": 1863
+      },
+      {
+        "campo": "ORGEXPED",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 794,
+        "distintos": 2
+      },
+      {
+        "campo": "AV_ACRED",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 6189,
+        "distintos": 0
+      },
+      {
+        "campo": "CLASAVAL",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 6189,
+        "distintos": 0
+      },
+      {
+        "campo": "DT_ACRED",
+        "tipo_dbf": "C",
+        "tamanho": 6,
+        "decimais": 0,
+        "ausentes": 6189,
+        "distintos": 0
+      },
+      {
+        "campo": "AV_PNASS",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 6189,
+        "distintos": 0
+      },
+      {
+        "campo": "DT_PNASS",
+        "tipo_dbf": "C",
+        "tamanho": 6,
+        "decimais": 0,
+        "ausentes": 6189,
+        "distintos": 0
+      },
+      {
+        "campo": "GESPRG1E",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "GESPRG1M",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "GESPRG2E",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "GESPRG2M",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "GESPRG4E",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "GESPRG4M",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "NIVATE_A",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "GESPRG3E",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "GESPRG3M",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "GESPRG5E",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "GESPRG5M",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "GESPRG6E",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "GESPRG6M",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "NIVATE_H",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "QTLEITP1",
+        "tipo_dbf": "N",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 39
+      },
+      {
+        "campo": "QTLEITP2",
+        "tipo_dbf": "N",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 43
+      },
+      {
+        "campo": "QTLEITP3",
+        "tipo_dbf": "N",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 37
+      },
+      {
+        "campo": "LEITHOSP",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "QTINST01",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 7
+      },
+      {
+        "campo": "QTINST02",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 4
+      },
+      {
+        "campo": "QTINST03",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "QTINST04",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 10
+      },
+      {
+        "campo": "QTINST05",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 7
+      },
+      {
+        "campo": "QTINST06",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 4
+      },
+      {
+        "campo": "QTINST07",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "QTINST08",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 14
+      },
+      {
+        "campo": "QTINST09",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 5
+      },
+      {
+        "campo": "QTINST10",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 4
+      },
+      {
+        "campo": "QTINST11",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "QTINST12",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "QTINST13",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "QTINST14",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 16
+      },
+      {
+        "campo": "URGEMERG",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "QTINST15",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 21
+      },
+      {
+        "campo": "QTINST16",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 33
+      },
+      {
+        "campo": "QTINST17",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 18
+      },
+      {
+        "campo": "QTINST18",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 27
+      },
+      {
+        "campo": "QTINST19",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "QTINST20",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 4
+      },
+      {
+        "campo": "QTINST21",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "QTINST22",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 10
+      },
+      {
+        "campo": "QTINST23",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 17
+      },
+      {
+        "campo": "QTINST24",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 7
+      },
+      {
+        "campo": "QTINST25",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 13
+      },
+      {
+        "campo": "QTINST26",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 4
+      },
+      {
+        "campo": "QTINST27",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "QTINST28",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "QTINST29",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 6
+      },
+      {
+        "campo": "QTINST30",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 7
+      },
+      {
+        "campo": "ATENDAMB",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "QTINST31",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 14
+      },
+      {
+        "campo": "QTINST32",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 8
+      },
+      {
+        "campo": "QTINST33",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 5
+      },
+      {
+        "campo": "CENTRCIR",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "QTINST34",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 6
+      },
+      {
+        "campo": "QTINST35",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 8
+      },
+      {
+        "campo": "QTINST36",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "QTINST37",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 6
+      },
+      {
+        "campo": "CENTROBS",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "QTLEIT05",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 16
+      },
+      {
+        "campo": "QTLEIT06",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 13
+      },
+      {
+        "campo": "QTLEIT07",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 8
+      },
+      {
+        "campo": "QTLEIT08",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 26
+      },
+      {
+        "campo": "QTLEIT09",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "QTLEIT19",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 5
+      },
+      {
+        "campo": "QTLEIT20",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 6
+      },
+      {
+        "campo": "QTLEIT21",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "QTLEIT22",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 10
+      },
+      {
+        "campo": "QTLEIT23",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "QTLEIT32",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 16
+      },
+      {
+        "campo": "QTLEIT34",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 8
+      },
+      {
+        "campo": "QTLEIT38",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 6
+      },
+      {
+        "campo": "QTLEIT39",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 5
+      },
+      {
+        "campo": "QTLEIT40",
+        "tipo_dbf": "N",
+        "tamanho": 3,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 11
+      },
+      {
+        "campo": "CENTRNEO",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "ATENDHOS",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP01P",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP01T",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP02P",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP02T",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP03P",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP03T",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP04P",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP04T",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP05P",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP05T",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP06P",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP06T",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP07P",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP07T",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP08P",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP08T",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP09P",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP09T",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP10P",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP10T",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP11P",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAP11T",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "SERAPOIO",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "RES_BIOL",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "RES_QUIM",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "RES_RADI",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "RES_COMU",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "COLETRES",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "COMISS01",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "COMISS02",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "COMISS03",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "COMISS04",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "COMISS05",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "COMISS06",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "COMISS07",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "COMISS08",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "COMISS09",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "COMISS10",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "COMISS11",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "COMISS12",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "COMISSAO",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP01CV01",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP01CV02",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP01CV03",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP01CV04",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP01CV05",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP01CV06",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP01CV07",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP02CV01",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP02CV02",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP02CV03",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP02CV04",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP02CV05",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP02CV06",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP02CV07",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP03CV01",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP03CV02",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP03CV03",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP03CV04",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP03CV05",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP03CV06",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP03CV07",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP04CV01",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP04CV02",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP04CV03",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP04CV04",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP04CV05",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP04CV06",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP04CV07",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP05CV01",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP05CV02",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP05CV03",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP05CV04",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP05CV05",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP05CV06",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP05CV07",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP06CV01",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP06CV02",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP06CV03",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP06CV04",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP06CV05",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP06CV06",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP06CV07",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP07CV01",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP07CV02",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP07CV03",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP07CV04",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "AP07CV05",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP07CV06",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "AP07CV07",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "ATEND_PR",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "DT_ATUAL",
+        "tipo_dbf": "C",
+        "tamanho": 6,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 76
+      },
+      {
+        "campo": "COMPETEN",
+        "tipo_dbf": "C",
+        "tamanho": 6,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "NAT_JUR",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 20
+      }
+    ],
+    "relato_anterior_nao_verificado": [
+      6189,
+      208
+    ],
+    "coincide_com_relato": true
+  },
+  "LT": {
+    "registros": 568,
+    "campos": 28,
+    "registros_marcados_excluidos": 0,
+    "duplicatas_integrais": 0,
+    "campos_requeridos_ausentes": [],
+    "parquet_sha256": "b88aeb49c820fdd12df575d43a58ded677e8f2e369294608473ce2f6b7e267b8",
+    "layout": [
+      {
+        "campo": "CNES",
+        "tipo_dbf": "C",
+        "tamanho": 7,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 111
+      },
+      {
+        "campo": "CODUFMUN",
+        "tipo_dbf": "C",
+        "tamanho": 6,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "REGSAUDE",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 362,
+        "distintos": 13
+      },
+      {
+        "campo": "MICR_REG",
+        "tipo_dbf": "C",
+        "tamanho": 6,
+        "decimais": 0,
+        "ausentes": 568,
+        "distintos": 0
+      },
+      {
+        "campo": "DISTRSAN",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 30,
+        "distintos": 21
+      },
+      {
+        "campo": "DISTRADM",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 568,
+        "distintos": 0
+      },
+      {
+        "campo": "TPGESTAO",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "PF_PJ",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "CPF_CNPJ",
+        "tipo_dbf": "C",
+        "tamanho": 14,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 107
+      },
+      {
+        "campo": "NIV_DEP",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 2
+      },
+      {
+        "campo": "CNPJ_MAN",
+        "tipo_dbf": "C",
+        "tamanho": 14,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "ESFERA_A",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 568,
+        "distintos": 0
+      },
+      {
+        "campo": "ATIVIDAD",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 3
+      },
+      {
+        "campo": "RETENCAO",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 568,
+        "distintos": 0
+      },
+      {
+        "campo": "NATUREZA",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 568,
+        "distintos": 0
+      },
+      {
+        "campo": "CLIENTEL",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 6,
+        "distintos": 3
+      },
+      {
+        "campo": "TP_UNID",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 6
+      },
+      {
+        "campo": "TURNO_AT",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 4
+      },
+      {
+        "campo": "NIV_HIER",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 568,
+        "distintos": 0
+      },
+      {
+        "campo": "TERCEIRO",
+        "tipo_dbf": "C",
+        "tamanho": 1,
+        "decimais": 0,
+        "ausentes": 568,
+        "distintos": 0
+      },
+      {
+        "campo": "TP_LEITO",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 7
+      },
+      {
+        "campo": "CODLEITO",
+        "tipo_dbf": "C",
+        "tamanho": 2,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 60
+      },
+      {
+        "campo": "QT_EXIST",
+        "tipo_dbf": "N",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 85
+      },
+      {
+        "campo": "QT_CONTR",
+        "tipo_dbf": "N",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "QT_SUS",
+        "tipo_dbf": "N",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 68
+      },
+      {
+        "campo": "QT_NSUS",
+        "tipo_dbf": "N",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 62
+      },
+      {
+        "campo": "COMPETEN",
+        "tipo_dbf": "C",
+        "tamanho": 6,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 1
+      },
+      {
+        "campo": "NAT_JUR",
+        "tipo_dbf": "C",
+        "tamanho": 4,
+        "decimais": 0,
+        "ausentes": 0,
+        "distintos": 10
+      }
+    ],
+    "relato_anterior_nao_verificado": [
+      568,
+      28
+    ],
+    "coincide_com_relato": true
+  }
+}

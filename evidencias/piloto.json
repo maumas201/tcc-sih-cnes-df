@@ -1,0 +1,15 @@
+{
+  "rd_linhas": 21120,
+  "junção_direta_linhas": 307232,
+  "fator_multiplicacao": 14.546969696969697,
+  "valor_original_centavos": 3397297919,
+  "valor_juncao_direta_centavos": 54677464783,
+  "valor_integracao_centavos": 3397297919,
+  "aih_antes": 21120,
+  "aih_depois": 21120,
+  "rd_sem_lt": 0,
+  "rd_sem_st": 0,
+  "st_sem_rd": 6157,
+  "lt_sem_rd": 79,
+  "status": "execução técnica; não equivale à conciliação TABNET"
+}
